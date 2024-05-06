@@ -4,7 +4,10 @@ import React from "react";
 // import GetInputBoxValue from './GetInputBoxValue'
 // import ShowToggle from "./ShowToggle";
 // import Hidepassword from "./Hidepassword";
-import FetchAPi from "./FetchAPi";
+// import FetchAPi from "./FetchAPi";
+import TimerComponent from "./TimerComponent";
+
+
 
 function AllComponetsRenderFile() {
   return (
@@ -14,7 +17,8 @@ function AllComponetsRenderFile() {
       {/* <GetInputBoxValue/> */}
       {/* <ShowToggle /> */}
       {/* <Hidepassword/> */}
-      <FetchAPi/>
+      {/* <FetchAPi/> */}
+      <TimerComponent/>
     </div>
   );
 }
